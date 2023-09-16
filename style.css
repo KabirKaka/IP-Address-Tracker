@@ -19,7 +19,6 @@ body {
 	font-family: "Rubik", sans-serif;
 }
 
-
 header {
 	display: flex;
 	flex-direction: column;
@@ -110,12 +109,13 @@ footer {
 	font-weight: bold;
 }
 
-@media (max-width: 540px) {
-	body{
-		
-	background-image: url("./images/pattern-bg-mobile.png") ;
-	background-repeat: no-repeat;
+@media (max-width: 375px) {
+	body {
+		background-image: url("./images/pattern-bg-mobile.png");
+		background-repeat: no-repeat;
 	}
+}
+@media (max-width: 540px) {
 	.input-container {
 		padding-top: 20px;
 		margin-bottom: 0px;
@@ -139,7 +139,7 @@ footer {
 		text-align: center;
 	}
 
-	.card-box{
+	.card-box {
 		width: 300px;
 		text-align: center;
 		padding: 13px 0;
